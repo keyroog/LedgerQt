@@ -1,1 +1,37 @@
 /docs
+
+# CMake
+/build/
+/build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Compiled objects
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Qt-generated
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# macOS
+.DS_Store
+*.dSYM/
+*.app/
+
+# IDE
+.idea/
+cmake-build-*/
+.vscode/
+
+# Runtime
+*.db
+*.sqlite
